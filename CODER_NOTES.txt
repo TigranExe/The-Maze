@@ -1,0 +1,8 @@
+
+
+Next:
+	Make a hierarchy plan. 
+	Rework "Bound network" code
+	Rework customization settings from Fragile bounds
+	Add basic art
+	Add some juicy sounds

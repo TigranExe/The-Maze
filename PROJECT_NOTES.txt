@@ -1,0 +1,13 @@
+A top down 2d turn based? Maybe multiplayer game about players who seek to maneuver around and hunt each other to 
+keep control of the golden piece that controls the maze they’re stuck in. Every player is constantly tracked by the 
+changing Maze and is thirsty to learn what footsteps activate the secrets of the Maze and avoid leaving fatal traces 
+for others. The Grand Architects of the Maze search for those cunning enough with the golden piece and are… 
+always.. hungry.
+
+
+Next:
+	Designer decision collection needs to be figured out
+	Bounties/"Questions that need to be solved" section to be figured out
+	Handy Resource database would be neat
+
+

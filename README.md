@@ -1,2 +1,2 @@
 # The-Maze-With-GDYU
- A collaborative experiment between GDYU friends
+ A collaborative experiment between GDYU friends.
