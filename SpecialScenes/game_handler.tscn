@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://detywurbm46yn"]
+
+[node name="GameHandler" type="Node2D"]
+
+[node name="OutsideWorld" type="Node2D" parent="."]
+
+[node name="Maze" type="Node2D" parent="."]
+
+[node name="Grid" type="Node2D" parent="Maze"]
+
+[node name="Player" type="Node2D" parent="Maze/Grid"]
+
+[node name="Wall" type="Node2D" parent="Maze/Grid"]
+
+[node name="Exit" type="Node2D" parent="Maze/Grid"]
