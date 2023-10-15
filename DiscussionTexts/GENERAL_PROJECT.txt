@@ -5,9 +5,6 @@ for others. The Grand Architects of the Maze search for those cunning enough wit
 always.. hungry.
 
 
-Next:
-	Designer decision collection needs to be figured out
-	Bounties/"Questions that need to be solved" section to be figured out
-	Handy Resource database would be neat
-
+Ideas:
+	Add a feature where you can see design doc refernces and maybe dev commentary like in Half Life
 

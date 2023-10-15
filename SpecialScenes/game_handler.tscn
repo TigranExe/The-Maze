@@ -1,14 +1,66 @@
-[gd_scene format=3 uid="uid://detywurbm46yn"]
+[gd_scene load_steps=8 format=3 uid="uid://detywurbm46yn"]
+
+[ext_resource type="Script" path="res://SpecialScripts/OutsideWorld.gd" id="1_biklp"]
+[ext_resource type="Texture2D" uid="uid://d316msy0elqvi" path="res://Maze_Assets_Very_Temp/OutsideCharacter.png" id="2_p76kx"]
+[ext_resource type="Script" path="res://SpecialScripts/Maze.gd" id="2_rkux4"]
+[ext_resource type="Texture2D" uid="uid://d302b6tly3nlg" path="res://Maze_Assets_Very_Temp/Apparatus.png" id="3_ish85"]
+[ext_resource type="Texture2D" uid="uid://df17dmyxpjmrb" path="res://Maze_Assets_Very_Temp/MazeCharacter.png" id="5_u6123"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bs24g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5bthu"]
 
 [node name="GameHandler" type="Node2D"]
 
 [node name="OutsideWorld" type="Node2D" parent="."]
+visible = false
+script = ExtResource("1_biklp")
+
+[node name="ColorRect" type="ColorRect" parent="OutsideWorld"]
+offset_right = 1156.0
+offset_bottom = 650.0
+color = Color(0.411765, 0.411765, 0.411765, 1)
+
+[node name="OutsideCharacter" type="CharacterBody2D" parent="OutsideWorld"]
+position = Vector2(662, 157)
+
+[node name="Sprite2D" type="Sprite2D" parent="OutsideWorld/OutsideCharacter"]
+scale = Vector2(2, 2)
+texture = ExtResource("2_p76kx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OutsideWorld/OutsideCharacter"]
+shape = SubResource("RectangleShape2D_bs24g")
+
+[node name="RoomWalls" type="Node2D" parent="OutsideWorld"]
+
+[node name="Apparatus" type="Area2D" parent="OutsideWorld"]
+position = Vector2(475, 288)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OutsideWorld/Apparatus"]
+shape = SubResource("RectangleShape2D_5bthu")
+
+[node name="Sprite2D" type="Sprite2D" parent="OutsideWorld/Apparatus"]
+position = Vector2(-13, 1)
+scale = Vector2(2, 2)
+texture = ExtResource("3_ish85")
 
 [node name="Maze" type="Node2D" parent="."]
+visible = false
+script = ExtResource("2_rkux4")
+
+[node name="ColorRect" type="ColorRect" parent="Maze"]
+offset_right = 1147.0
+offset_bottom = 646.0
+color = Color(0, 0, 0, 1)
 
 [node name="Grid" type="Node2D" parent="Maze"]
+position = Vector2(450, 235)
 
-[node name="Player" type="Node2D" parent="Maze/Grid"]
+[node name="MazeCharacter" type="Node2D" parent="Maze/Grid"]
+position = Vector2(-2, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Maze/Grid/MazeCharacter"]
+texture = ExtResource("5_u6123")
 
 [node name="Wall" type="Node2D" parent="Maze/Grid"]
 

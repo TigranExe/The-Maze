@@ -1,6 +1,9 @@
-%Experience Name: Showcase Experience
+
 
 Legend:
+	General row reading format:
+		For storing data, they will begin with ">>" and then the code. Next rows will be "," or "]," seperated lists of elements
+		"%" means this is information in a line that will have the entire next line stored to a variable
 	Maze Bound:
 		R(id_number) - Room of id_number
 	Tile Bound:
@@ -8,35 +11,48 @@ Legend:
 		C(id_number) - Circuit of id_number
 		S(of_what) - Sprite of of_what
 	Circuit Bound:
-		T((R(id_number)),(which_tile)) - Transfer to different id_number room at which_tile position
+		M((R(id_number)),(which_tile)) - Move to different id_number room at which_tile position
 		V(id_number) - Visual of id_number that plays until finished
 		????###If, and, or statements?
 		????Radnom function?
 		E - exit experience
 	Visual Bound:
-		Te(what_text) - Text to be displayed
+		T(what_text) - Text to be displayed
+	#Empty Room:
+		],],],],
+		],],],],
+		],],],],
+		],],],],
+		],],],],
 
-%Experience Start: T(R1,[3,5])
+%Experience Start
+M(R1,[3,5])
+%Experience Name
+Showcase Experience 
 
 >>>Circuit Library
->>C1: V1, T(R2,[3,5])
->>C2: V2, E
+>>C1 
+V1],M(R2,[3,5])
+>>C2
+V2],E
 
 >>>Visual Library
->>V1: Te("Remember you can")
->>V2: Te("You are in control")
+>>V1
+T("Remember you can")
+>>V2
+T("You are in control")
 
 
 >>>Room Library
 >>R1
-[],[],[C1],[],[]
-[],[],[],[],[]
-[],[],[W],[],[]
-[],[],[],[],[]
-[],[],[],[],[]
+],],],],
+],],],],
+],],W],],
+],],],],
+],],],],
 >>R2
-[],[],[C2],[],[]
-[],[],[],[],[]
-[W],[W],[W],[W],[S(W)]
-[],[],[],[],[]
-[],[],[],[],[]
+],],C2],],
+],],],],
+W],W],W],W],S(W)
+],],],],
+],],],],
