@@ -10,7 +10,7 @@ var turn_timer_countdown: float = 8
 
 var out_of_screen_position: Vector2 = Vector2(-42,-42)
 
-var distance_between_tile_centers: int = 100
+var distance_between_tile_centers: int = 50
 var grid_tile_width: int = 5
 var grid_tile_height: int = 5
 var center_of_top_left_tile_position: Vector2

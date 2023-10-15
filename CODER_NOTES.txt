@@ -3,11 +3,8 @@
 
 Next: (Crtl+Shift+F "###" to find things that need to be worked on)
 	Look at Godot top down shooter tutorial to see how walls are done
-	Make basic Maze movement
 	Rework customization settings from Fragile bounds
-	Rework "Bound network" code
 	Grab my file reading code. MAKE SURE I CLOSE MY FILES!! FOR SAFETY!! In TestSpace:
-		Make an element dictionary
 		I need to have a way to throw errors somehow like what if someone makes there be 26 rooms
 		maybe a tile can have multiple things, like a transfer function and something that looks like an exit
 		Figure out Transfer functions
@@ -18,39 +15,3 @@ Next: (Crtl+Shift+F "###" to find things that need to be worked on)
 	Add basic art
 	Add some juicy sounds
 
-
----- General Thoughts/plans ----
-
-Outside World: could be an actual explorable little room of the person in the outside world before they enter the 
-Maze. Maybe different characters have different rooms before entering the Maze and maybe you can do things in the room 
-like you can in your room in death stranding 
-
-Maze Entrance Interface:
-	>Main Menu pretty much
-	>Customization option is settings + controls to change the game. There should be a text that says "this is open 
-	source, if you want full control to change this, Go ahead!"
-	>Level editor: Siva said perhaps you can only have the level editor for a limited time and it's slightly evil but
-	also maybe genius to get the player to want to have control of the level editor?? Check out file experimentation 
-	for more
-	>Play. Lets you play experiences or the classic HUNT mode. Experiences are like linear crafted adventures and 
-	HUNT is the single/multiplayer mode. Alien Swarm had this super cool feature where the menu faded into gameplay 
-	and I think it can be recreated
-	>Central Connection. Maybe a funny way to show the clash of control using the openness of code, this would be a 
-	way to input codes which are then sent to a closed source database and if the code is recognized, the player is 
-	rewarded. Maybe we can use this to hide stuff from the super open code.
-	
-
-Maze:
-	> 25 different saved possible 5 by 5 tile rooms filled with trigger tiles. Trigger tiles make reactions happen
-
-Grid:
-	>I think I want to use position for this rather than global position. In case we want to move or scale the grid
-
-File Experimentation:
-	>ND Jia was showing the cool subcultures built around custom file formats and maybe we can learn from those BMS 
-	files.
-	> I always thought cross game file sharing would be awesome and maybe made easier with open source. There could 
-	be some "CrossGameItemFormat" where it lists what an item is and different games can interpret the data in 
-	different ways
-	> The level editor for It's hard to make a good snowman is all in a text file pretty much and I think this super 
-	freeflow system could be huge
