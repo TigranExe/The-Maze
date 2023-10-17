@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do7bbh25fyxkk"
-path="res://.godot/imported/Grid.png-8becc5e6c117218c8d717a4eb78bfaa6.ctex"
+path="res://.godot/imported/Grid.png-ad2a2c41ec4c4fc757ca16ddd2ccf88c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Maze_Assets_Very_Temp/Grid.png"
-dest_files=["res://.godot/imported/Grid.png-8becc5e6c117218c8d717a4eb78bfaa6.ctex"]
+source_file="res://assets/maze_assets_very_temp/Grid.png"
+dest_files=["res://.godot/imported/Grid.png-ad2a2c41ec4c4fc757ca16ddd2ccf88c.ctex"]
 
 [params]
 
