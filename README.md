@@ -6,7 +6,7 @@
 
 Here's the [design doc](https://docs.google.com/document/d/1vs-uuo3EVE-bTyuviN5FSpdkm3ZyLSNCJJKOx5uJOF0/edit#heading=h.1jqugjgd3he3) to help contribute! 
 
-Please read [contributing.md](/docs/contributing.md) for information to contributing (to the repository)
+Read [contributing.md](/docs/contributing.md) before working on the repository. 
 
 ![THEMAZEphoto](/docs/gh_readme_assets/THEMAZEhahahahatestingargstuffifyouseethismessagemesayingyoudidhehehe2.png)
 
