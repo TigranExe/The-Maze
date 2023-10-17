@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cn1dvcdverrmh"
-path="res://.godot/imported/Wall.png-de494116fee6504d2d0c12987d64a1df.ctex"
+uid="uid://do7bbh25fyxkk"
+path="res://.godot/imported/Grid.png-8becc5e6c117218c8d717a4eb78bfaa6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Maze_Assets_Very_Temp/Wall.png"
-dest_files=["res://.godot/imported/Wall.png-de494116fee6504d2d0c12987d64a1df.ctex"]
+source_file="res://assets/Maze_Assets_Very_Temp/Grid.png"
+dest_files=["res://.godot/imported/Grid.png-8becc5e6c117218c8d717a4eb78bfaa6.ctex"]
 
 [params]
 
