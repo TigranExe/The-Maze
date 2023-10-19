@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqxmwso6j33r6"
-path="res://.godot/imported/THEMAZEhahahahatestingargstuffifyouseethismessagemesayingyoudidhehehe2.png-db6095a695a8b244262adcfbb9849152.ctex"
+uid="uid://cn1dvcdverrmh"
+path="res://.godot/imported/Wall.png-11c6891435809f4bbf36dfde0c97af57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://GithubReadMeAssets/THEMAZEhahahahatestingargstuffifyouseethismessagemesayingyoudidhehehe2.png"
-dest_files=["res://.godot/imported/THEMAZEhahahahatestingargstuffifyouseethismessagemesayingyoudidhehehe2.png-db6095a695a8b244262adcfbb9849152.ctex"]
+source_file="res://assets/maze_assets_very_temp/Wall.png"
+dest_files=["res://.godot/imported/Wall.png-11c6891435809f4bbf36dfde0c97af57.ctex"]
 
 [params]
 

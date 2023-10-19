@@ -30,6 +30,7 @@ func check_for_new_player_inputs_to_move():
 #		Input.get_action_strength("controller_aim_down") - Input.get_action_strength("controller_aim_up")
 #		).limit_length(1.0)
 	if current_player_input_scheme == InputScheme.MOUSE_KEYBOARD:#8d movement is possible...
+		#movement_vector = Input.get_vector()
 		if Input.is_action_pressed("ui_right"):
 			movement_vector.x = 1.0
 		if Input.is_action_pressed("ui_left"):
