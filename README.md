@@ -15,5 +15,7 @@ Here's the [design doc](https://docs.google.com/document/d/1vs-uuo3EVE-bTyuviN5F
 
 Read [contributing.md](/docs/contributing.md) before working on the repository. 
 
+DUE MAY 31 2024 23:59
+
 ![THEMAZEphoto](/docs/gh_readme_assets/THEMAZEhahahahatestingargstuffifyouseethismessagemesayingyoudidhehehe2.png)
 
