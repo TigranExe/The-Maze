@@ -1,5 +1,9 @@
 # The-Maze-With-GDYU
  A collaborative experiment between GDYU friends.
+ CURRENTLY:
+ -Deciding a ticket system to make it easy to know how to help
+ -Setting systems for contribution
+ -Deciding how to iterate on gameplay
 
  Here's a [video](https://youtu.be/xjZsrdWe2jU) to understand what this is!
  
